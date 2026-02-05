@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato - MusicDot</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="cabecalho.css">
+</head>
+<body>
+
+<header>
+    <img src="logo.svg" alt="MusicDot">
+
+    <nav>
+        <ul>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#">Entrar</a></li>
+            <li><a href="#">Matricule-se</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <h1 class="titulo-principal">Entre em contato</h1>
+
+    <form>
+
+        <div class="campo">
+            <input type="text" id="nome" name="nome" required>
+            <label for="nome">Nome</label>
+        </div>
+
+        <div class="campo">
+            <input type="tel" id="fone" name="fone" placeholder="(xx) xx-xx-xx-xx" required>
+            <label for="fone">Fone</label>
+        </div>
+
+        <div class="campo">
+            <input type="email" id="email" name="email" placeholder="fulano@mail.com" required>
+            <label for="email">Email</label>
+        </div>
+
+        <div class="campo">
+            <textarea id="mensagem" name="mensagem" placeholder="Deixe sua opinião" required></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+</main>
+
+</body>
+</html>
